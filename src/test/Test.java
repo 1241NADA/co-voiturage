@@ -3,31 +3,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML.java to edit this template
  */
 package test;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-<<<<<<< HEAD
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
-=======
->>>>>>> e286985d310282f93f6c24ff2fa2d4dcc3c9ef17
 import javafx.stage.Stage;
 
 /**
  *
-<<<<<<< HEAD
  * @author noura
-=======
- * @author ajeln
->>>>>>> e286985d310282f93f6c24ff2fa2d4dcc3c9ef17
  */
 public class Test extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-<<<<<<< HEAD
          // Utilisation de la classe Adresse importée
         Adresse adresse = new Adresse("123 Rue Exemple", "Paris", 75000);
 
@@ -58,8 +49,6 @@ public class Test extends Application {
         date1.afficherDate();  // Devrait afficher : 21/12/2025
         
         
-=======
->>>>>>> e286985d310282f93f6c24ff2fa2d4dcc3c9ef17
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);

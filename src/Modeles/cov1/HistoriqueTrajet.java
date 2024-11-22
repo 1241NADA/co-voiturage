@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author noura
  */
-/*public class HistoriqueTrajet {
+public class HistoriqueTrajet {
     private List<Trajet> trajets;
 
     // Constructeur
@@ -40,6 +40,6 @@ import java.util.List;
             }
         }
     }
-}*/
+}
 
 
