@@ -8,7 +8,7 @@ public sealed class Utilisateurs permits Conducteur, Passager {
 
     private String nom;
     private String email;
-    private String prénom;
+    private final String prénom;
     private Adresse adresseUser;
 
     public Utilisateurs(String nom, String email, String prénom, Adresse adresseUser) {
